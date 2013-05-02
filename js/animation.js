@@ -19,3 +19,7 @@ $("div#home").click( function(e){
 
 
 });
+
+// $("a#video").click( function(e){
+//     $('#video').modal()
+// });

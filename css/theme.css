@@ -154,6 +154,14 @@ h2.link_text{
 a.text_link{
 color: #669999;
 }
+
+div.video{
+  background-color: black;
+}
+
+div#video_frame{
+  text-align: center;
+}
 /*Media Query for 360ps phone */
 
 @media all and (max-width:360px){
