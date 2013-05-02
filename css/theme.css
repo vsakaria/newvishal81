@@ -27,17 +27,15 @@ div#main-container{
 }
 
 div#main_img_cont {
-
     position: fixed;
-
 }
 
-
-
 img#main_img{
+
     position: fixed;
     height: 100%;
 }
+
 
 div#home_main_text_container{
     display: block;
@@ -63,6 +61,8 @@ h1.title{
     margin-top: 2em;
 }
 
+
+
 div.sub_title{
     font-family: loveya, Palatino Linotype;
     font-size: 2.5em;
@@ -73,10 +73,6 @@ div.sub_title{
 ul.skills_list{
     list-style-type: none;
     margin-top: 0.5em;
-}
-
-li span{
-    color: #997767;
 }
 
 p#coding_skills{
@@ -140,8 +136,72 @@ img#portfolio{
 
 h2.link_text{
     font-size: 0.75em;
+    text-align: center;
 }
 
+a.text_link{
+color: #669999;
+}
+/*Media Query for 360ps phone */
+
+@media all and (max-width:360px){
+
+   img#main_img{ display: none; }
+   div#main-container{margin-left: 0px;}
+   h1.title{font-size: 3em;}
+   div.sub_title ul li{font-size: .75em;}
+   div#more_skills p#coding_skills{font-size: 15px; }
+   div#bottom_info_box2 div:not(:first-child) {
+    margin-left: 40px;
+   }
+
+   #work_main_text_container div#bottom_info_box2 div.logo{
+    width: 150px;
+    height: 150px;
+    margin: 0px 60px;
+    text-align: center;
+   }
+
+   #work_main_text_container div#bottom_info_box2 div.logo a img#portfolio{
+       margin-left: 0px;
+   }
+   
+   a.text_link{
+        text-align: center;
+    }
+
+}
+
+
+
+@media all and (max-width:800px){
+
+   img#main_img{ display: none; }
+   div#main-container{margin-left: 0px;}
+   h1.title{font-size: 3em;}
+   div.sub_title ul li{font-size: .75em;}
+   div#more_skills p#coding_skills{font-size: 15px; }
+   div#bottom_info_box2 div:not(:first-child) {
+    margin-left: 40px;
+   }
+
+   #work_main_text_container div#bottom_info_box2 div.logo{
+    width: 150px;
+    height: 150px;
+    margin: 0px 60px;
+    text-align: center;
+   }
+
+   #work_main_text_container div#bottom_info_box2 div.logo a img#portfolio{
+       margin-left: 0px;
+   }
+   
+    a.text_link{
+        text-align: center;
+    }
+
+
+}
 /*
 
 
