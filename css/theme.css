@@ -86,10 +86,22 @@ div.bottom_info_box{
 
 }
 
+img#linkedin{
+  height: 22px;
+  width: 22px;
+}
 
 div.logo{
-    float: left;
+  float: left;
 }
+
+div.logo a{
+  vertical-align: middle;
+}
+
+div.logo p#mail{
+   vertical-align: middle;
+ }
 
 div.bottom_info_box div:not(:first-child) {
     margin-left: 25px;
@@ -108,7 +120,7 @@ div#bottom_info_box2 div:not(:first-child) {
 }
 
 
-#mail{
+p.text{
     font-family: loveya, Palatino Linotype;
     font-size: 0.5em;
     color: #636363;
@@ -165,7 +177,7 @@ color: #669999;
    #work_main_text_container div#bottom_info_box2 div.logo a img#portfolio{
        margin-left: 0px;
    }
-   
+
    a.text_link{
         text-align: center;
     }
@@ -195,7 +207,7 @@ color: #669999;
    #work_main_text_container div#bottom_info_box2 div.logo a img#portfolio{
        margin-left: 0px;
    }
-   
+
     a.text_link{
         text-align: center;
     }
