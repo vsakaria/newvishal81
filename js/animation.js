@@ -20,6 +20,20 @@ $("div#home").click( function(e){
 
 });
 
+$("#video").on('hide', function(e) {
+
+	console.log("back droptrigger")
+	$('iframe#pres_video').attr('src','');
+	$('iframe#pres_video').attr('src','http://player.vimeo.com/video/65318374');
+});
+
+// $(function() {
+
+//   console.log("doc ready")
+
+// $('div#video_link').effect("bounce", { times:10 }, 300);
+
+// });
 // $("a#video").click( function(e){
 //     $('#video').modal()
 // });
