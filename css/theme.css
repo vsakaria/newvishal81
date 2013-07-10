@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'sketchbook';
+    font-family: 'sketchbook';x
     src: url('../fonts/Sketch_Block.ttf');
     font-weight: normal;
     font-style: normal;
@@ -89,8 +89,6 @@ div.bottom_info_box{
    margin-top: 1em;
 
 }
-
-
 
 .margin-top-small{
   margin-top: 2em;
@@ -214,11 +212,12 @@ img.git_modal_logo{
 }
 
 /*Git modal*/
-div#git_modal h1{
+div.modal_title h1{
   font-family: loveya, Palatino Linotype;
   font-size: 32px;
   text-align: center;
   color: #996600;
+  margin-bottom: 40px;
 }
 
 div#git_modal p{
@@ -234,6 +233,37 @@ div#git_modal_cont{
   height:500px;
   overflow:scroll;
 }
+
+.port_logo{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.left{
+  float:left;
+}
+
+.margin-left-right{
+  margin: 0px 5px;
+}
+
+#port_div{
+  width: 600px;
+  margin: 0 50px;
+}
+
+#port_div p{
+  width: 145px;
+  color: #669999;
+}
+
+.view_border_red{
+  border: 2px solid red;
+}
+
+
 /*Media Query for 360ps phone */
 
 @media all and (max-width:360px){
