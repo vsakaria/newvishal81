@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'sketchbook';x
+    font-family: 'sketchbook';
     src: url('../fonts/Sketch_Block.ttf');
     font-weight: normal;
     font-style: normal;
@@ -45,6 +45,8 @@ div#work_main_text_container{
     display: none;
 }
 
+
+
 /*@media all and (max-height: 700px){
    img#main_img{height: 700px;}
 }*/
@@ -52,6 +54,25 @@ div#work_main_text_container{
 /*@media all and (min-height: 700px){
    img#main_img{width: 100%; }
 }*/
+
+.loveya{
+   font-family: loveya, Palatino Linotype;
+}
+
+div#features{
+   text-align: center;
+   margin: 30px 0;
+}
+
+div#features p a{
+  color: #996600;
+  font-size: 1.25em;
+}
+
+.dots{
+  color: #996600;
+  font-size: 2em;
+}
 
 h1.title{
     font-family: loveya, Palatino Linotype;
@@ -61,8 +82,6 @@ h1.title{
     margin-top: 2em;
 }
 
-
-
 div.sub_title{
     font-family: loveya, Palatino Linotype;
     font-size: 2.5em;
@@ -70,6 +89,7 @@ div.sub_title{
     line-height: 0.5em;
 
 }
+
 ul.skills_list{
     list-style-type: none;
     margin-top: 0.5em;
@@ -85,33 +105,47 @@ p#coding_skills{
     line-height: 1em;
 }
 
-div.bottom_info_box{
-   margin-top: 1em;
-
+#contacts{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 140px;
 }
 
-.margin-top-small{
-  margin-top: 2em;
+div.logo{
+  float:left;
+  margin: 0px 40px;
 }
+
+div.logo p{
+  font-size: 1.25em;
+  color: #996600;
+}
+
+i {
+  font-size:  40px;
+  color: #996600;
+}
+
 
 img#linkedin{
   height: 22px;
   width: 22px;
 }
 
-div.logo{
-  float: left;
+
+
+div.bottom_info_box{
+   margin-top: 1em;
 }
 
-div.logo a{
-  vertical-align: middle;
+.margin-top-small{
+  margin-top: 2em;
 }
 
-div.logo p#mail{
-   vertical-align: middle;
- }
 
-div.bottom_info_box div:not(:first-child) {
+
+/*div.bottom_info_box div:not(:first-child) {
     margin-left: 25px;
     margin-bottom: 50px;
 }
@@ -119,7 +153,7 @@ div.bottom_info_box div:not(:first-child) {
 div#bottom_info_box2 div:not(:first-child) {
     margin-left: 75px;
     margin-bottom: 50px;
-}
+}*/
 
 
 .twitter-follow-button{
@@ -130,7 +164,7 @@ div#bottom_info_box2 div:not(:first-child) {
 
 p#email_text{
   font-family: loveya, Palatino Linotype;
-  font-size: 0.5em;
+  font-size: 1.25em;
   color: #636363;
 }
 
@@ -160,12 +194,12 @@ img#portfolio{
 }
 
 h2.link_text{
-    font-size: 0.75em;
     text-align: center;
+    font-size: 30px;
 }
 
 a.text_link{
-color: #996600;
+  color: #996600;
 }
 
 div.modal{
@@ -184,10 +218,7 @@ div#video_link{
   margin-top: 20px;
   text-align: center;
   font-size: 0.5em;
-  }
-
-div#video_link p a{
-  color: #996600;
+  
 }
 
 div#git_modal{

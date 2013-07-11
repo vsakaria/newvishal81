@@ -8,6 +8,12 @@
 
     <link href="css/theme.css" rel="stylesheet" type="text/css" />
 
+     <link href="css/general_enclosed_foundicons.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/social_foundicons.css" rel="stylesheet" type="text/css" />
+
+    
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
   	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
@@ -37,10 +43,8 @@
 
     <div class="container-fluid offset4" id ="main-container">
 
-
+<!-- Main Home Container-->
 		<div class="row-fluid"  id="home_main_text_container">
-
-			<div class="row-fluid">
 
 	        	<h1 class=" span10  title">Vishal Sakaria</h1>
 
@@ -53,79 +57,60 @@
 			            <li>Co-working</li></br>
 			            <li>Curiosity</li></br>
 	          		</ul>
+				</div>
 
-	          		 <div class="row-fluid" id="more_skills">
-	         			 <p class="span10 " id="coding_skills">OO Javascript - Ruby on Rails - TDD - JQuery - CSS - HTML - Git - Heroku - Java - Photoshop - Agile & Lean</p>
-
-                 <div class="row-fluid span8" id="video_link">
-
-                    <div class="">
-                    		<p>.</p>
-	                      <p><a href="#" data-toggle="modal" data-target="#video">
-	                        See my recent talk
-	                      </a></p>
-
-	                </div>
+	          	<div class="row-fluid" id="more_skills">
+         			 <p class="span10 " id="coding_skills">OO Javascript - Ruby on Rails - TDD - JQuery - CSS - HTML - Git - Heroku - Java - Photoshop - Agile & Lean</p>
+	         	</div>
                  
-                    <div class="margin-top-small">
+             	<div class="row-fluid span8 loveya" id="features">
+                	<p class="dots">.</p>
+                     <p><a href="#" data-toggle="modal" data-target="#video">
+                       See my recent talk
+                     </a></p>
 
-	                      <p><a href="http://technotzen.wordpress.com" target="_blank">
-	                        Read my blog, feat. on Hacker News & Clojure Planet - </br> over 12,000 hits</a></p>
-	                        <p>.</p>
-	                </div>
+                    <p><a href="http://technotzen.wordpress.com" target="_blank">
+                       Read my blog, feat. on Hacker News & Clojure Planet - </br> over 12,000 hits</a>
+                   	</p>
+                    <p class="dots">.</p>
+		    	</div>
 
-                 </div>
+	            <div class="row-fluid span10" >
+	            	<div id="contacts">
+	               	
+	     			 	<div class = "logo">
+	       					<a href="https://twitter.com/vsakaria" class="twitter-follow-button" data-show-count="false" >Follow @vsakaria</a>
+	       				</div>
 
-                <div>
-     			<div class="row-fluid span10 bottom_info_box" id="">
+	       				<div class = "logo" >
+	       					<a href="http://www.linkedin.com/pub/vishal-sakaria/40/94b/aa" target="_blank" class="">
+	       					 <i class="foundicon-linkedin"></i>	
+	       					</a>
+	       				</div>
 
-     			 	<div class = "logo">
-       					<a href="https://twitter.com/vsakaria" class="twitter-follow-button" data-show-count="false" >Follow @vsakaria</a>
-       				</div>
+	       				<div class = "logo" >
+	       					<a href="mailto:vsakaria@gmail.com" target="_blank"> <i class="g-icon-mail"></i>	</a>
+	       				</div>
 
-       				<div class = "logo" >
-       					<a href="http://www.linkedin.com/pub/vishal-sakaria/40/94b/aa" target="_blank" class=""><img id = "linkedin" src="img/LinkedIn.png" alt="Go to Vishal's LinkedIn" /></a>
-       				</div>
+		                  <div class = "logo" >
+		                    <a href="files/Curricdivum Vitae for Vishal Sakaria SE.pdf" target="_blank"><p class="loveya">Read my CV</p></a>
+		                  </div>
 
-       				<div class = "logo" >
-       					<a href="mailto:vsakaria@gmail.com" target="_blank"><img id = "gmail" src="img/gmail.png" alt="Email Vishal" /></a>
-       				</div>
+	       				<div class = "logo" >
+	       					<p id="email_text">vsakaria@gmail.com</p>
+	       				</div>
 
-	                  <div class = "logo" >
-	                    <a href="files/Curriculum Vitae for Vishal Sakaria SE.pdf" target="_blank"><p class="link">Read my CV</p></a>
-	                  </div>
+	       			</div>
+				</div>
 
-       				<div class = "logo" >
-       					<p id="email_text">vsakaria@gmail.com</p>
-       				</div>
-
-     			  </div>
-
-                  <div class="row-fluid span8  link_box" id="work">
-                    <a href="#" class="text_link"><h2 class = "link_text">Click here to see my Portfolio, Git & SO accounts</h2></a>
-                  </div>
-
-	        		</div>
-	        		</div>
-	        	</div>
-	    	</div>
+	        	<div class="row-fluid span8  link_box" id="work">
+                    <a href="#" class="text_link"><h2 class = "link_text loveya">Click here to see my Portfolio, Git & SO accounts</h2></a>
+                </div>
 
 		</div><!-- End home_main_text_container -->
 
 
-
-    <!--modal -->
-    <div id="video" class="modal hide fade video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
-      <div>
-            <h3 id="modal_title">Presentation clip at Maker Academy</h3>
-      </div>
-
-      <div id="video_frame">
-          <iframe id="pres_video"src="http://player.vimeo.com/video/65318374" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/65318374"></a>  <a href="http://vimeo.com/user12636831"></a> </p>
-      </div>
-    </div>
-<!-- Start work_main_text_container -->
+		<!-- Start work_main_text_container -->
 
 		<div class="row-fluid" id="work_main_text_container">
 
@@ -178,8 +163,23 @@
 
 </div><!-- close work main tect contaontier -->
 
+	</div><!-- Main Container -->
 
-	<!-- Portfoilo Model -->
+    <!--Video Modal -->
+    <div id="video" class="modal hide fade video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+      <div>
+            <h3 id="modal_title">Presentation clip at Maker Academy</h3>
+      </div>
+
+      <div id="video_frame">
+          <iframe id="pres_video"src="http://player.vimeo.com/video/65318374" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/65318374"></a>  <a href="http://vimeo.com/user12636831"></a> </p>
+      </div>
+    </div>
+
+
+
+	<!-- Portfoilo Modal -->
 	 <div id="portfolio_modal" class="modal_title modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
             	<div class = "row-fluid">
@@ -217,7 +217,6 @@
     	    </div>
 
 
-
    <!--Git Modal -->
             <div id="git_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             	<div class = "row-fluid">
@@ -241,7 +240,7 @@
 	            					<img class = "git_modal_logo" src="img/Octocat.png" alt="Go to Vishal's GitHub" />
 	            				</div>
 	            				<div class="span10 git_modal_text">
-	            					<p>I was called in to turn this "spaghetti" Javascript code into a  reusable, scalable & robust OO library </p>
+	            					<p>I was called in to turn this "spaghetti" Javascript code into a  reusable, scalable & robust OO library. It take two sets of data merges them together and then renders the data into a visual represenation using a map!</p>
 	            				</div>
 	            			</a>
             			</div>
